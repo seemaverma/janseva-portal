@@ -1,0 +1,54 @@
+/* page color Theme map*/
+
+$colors: (
+  white: #fff,
+  whiteLight: #f2f2f2,
+  black: #232323,
+  blackAlpha: rgba(0, 0, 0, 0.3),
+  transparent: transparent,
+  errorColor: #ff0000,
+  erroriconBg: #ad2c30,
+  successiconBg: #015e31,
+  overLay: rgba(0, 0, 0, 0.5)
+) !default;
+@each $key, $value in $colors {
+  .bgc-#{$key} {
+    background: $value;
+  }
+  .c-#{$key} {
+    color: $value;
+  }
+  .borderc-#{$key} {
+    border-color: $value;
+  }
+}
+
+/* Social color Theme map*/
+
+$socialColors: (
+  twitter: #55acee,
+  instagram: #e4405f,
+  facebook: #3b5999,
+  whatsapp: #25d366,
+  youtube: #df2029,
+  linkedin: #0077b5,
+  pinterest: #c8232c,
+  auth-googlePlus: #e14929,
+  auth-googlePlus-solid: #d83913,
+  auth-facebook: #38559c,
+  auth-facebook-solid: #324b89,
+  auth-default: #38559c,
+  auth-default-solid: #324b89,
+  default: #064e72
+) !default;
+@each $key, $value in $socialColors {
+  .iconBgC-#{$key} {
+    background: $value;
+  }
+  .iconC-#{$key} {
+    color: $value;
+  }
+  .iconBrdC-#{$key} {
+    border-color: $value;
+  }
+}

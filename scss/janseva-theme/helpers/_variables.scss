@@ -1,0 +1,12 @@
+/* font variable */
+
+$font-family: "Lato", sans-serif !important;
+$fontSize: 16px;
+
+
+/* Base Url Path for ftp images*/
+$img-base-url: "image/path" !default;
+$img-base-url-dev: "" !default;
+
+/* Sprite dynamicImage Path */
+$spriteBg: url("#{$img-base-url}spriteImg.png");
