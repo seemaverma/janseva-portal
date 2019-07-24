@@ -1,8 +1,0 @@
-/* page font size data list*/
-
-$font-size: 12px, 14px, 15px, 16px, 17px, 18px, 19px, 20px, 22px, 24px, 26px, 28px, 30px, 32px, 38px, 45px, 55px, 120px;
-@for $i from 1 through 18 {
-  .fontSize-#{nth($font-size, $i)} {
-    font-size: nth($font-size, $i);
-  }
-}
